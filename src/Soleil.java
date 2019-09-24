@@ -23,10 +23,10 @@ public class Soleil extends Group {
         //rayons
 
 
-        Line rayon1 = new Line(-10, 50, 15, 50);
-        Line rayon2 = new Line(50, 85, 50, 110);
-        Line rayon3 = new Line(85, 50, 110, 50);
-        Line rayon4 = new Line(50, -10, 50, 15);
+        Line rayon1 = new Line(-15, 50, 15, 50);
+        Line rayon2 = new Line(50, 80, 50, 110);
+        Line rayon3 = new Line(85, 50, 115, 50);
+        Line rayon4 = new Line(50, -15, 50, 15);
         Line rayon5 = new Line(10,10,25,25);
         Line rayon6 = new Line(75,75,90,90);
         Line rayon7 = new Line(75,25, 90,10);

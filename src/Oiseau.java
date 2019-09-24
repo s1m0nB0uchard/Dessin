@@ -20,6 +20,9 @@ public class Oiseau extends Group {
         aileDroite.setFill(Color.TRANSPARENT);
         aileDroite.setStrokeWidth(3);
 
+
+
+
         Group oiseau = new Group();
         oiseau.getChildren().addAll(aileDroite,aileGauche);
 

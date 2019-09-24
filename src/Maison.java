@@ -19,12 +19,14 @@ public class Maison extends Group{
         //fenetre
         Rectangle fenetre = new Rectangle(50,60,30,15);
         fenetre.setFill(Color.DEEPSKYBLUE);
+        fenetre.setStroke(Color.WHITE);
         Line ligneVerticale = new Line(65,60,65,75);
         ligneVerticale.setStrokeWidth(2);
         ligneVerticale.setStroke(Color.WHITE);
         Line ligneHorizontale = new Line(50,67.5,80,67.5);
         ligneHorizontale.setStrokeWidth(2);
         ligneHorizontale.setStroke(Color.WHITE);
+
         //poignée
         Ellipse poignee = new Ellipse(35,75,3,3);
         poignee.setFill(Color.YELLOW);
